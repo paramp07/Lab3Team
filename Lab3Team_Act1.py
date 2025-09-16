@@ -8,6 +8,18 @@
 # Date: 16 September 2025
 
 
+# this will convert pounds of force to newtons
+pounds = float(input("Enter force in pounds: "))
+newtons = pounds * 4.44822
+print(pounds, "pounds of force is equal to", newtons, "newtons")
+
+# this will convert kilometers to miles
+
+kilometers = float(input("Enter distance in kilometers: "))
+miles = kilometers * 0.621371
+print(kilometers, "kilometers is equal to", miles, "miles")
+
+
 # this will convert seconds per revolution to hertz
 seconds_per_revolution = float(input("Enter time in seconds per revolution: "))
 hertz = 1 / seconds_per_revolution
