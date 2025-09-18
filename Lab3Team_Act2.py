@@ -7,19 +7,7 @@
 # Assignment: Lab 3.2
 # Date: 16 September 2025
 
-# This activity is meant to give your team experience writing a larger program together. Your
-# program should take as input the time and location of a moving object at two points, then
-# using interpolation calculate the position at several intermediate times. Your program needs
-# to perform the following tasks:
-# • Prompt the user to enter the time and 3-D position of a traveling object at two
-# different times. Use times and placement unique to your team. Not the sample values
-# below, or the team next to you...yeah, that team.
-# • Use interpolation to calculate the times and positions for three evenly spaced points
-# between the two points entered by the user
-# • Print the results using nice formatting
-# o Display the times using one (1) decimal place
-# o Display the positions using two (2) decimal place
-
+# intialize variables
 time1 = float(input("Enter time 1: "))
 x1 = float(input("Enter the x position at time 1: "))
 y1 = float(input("Enter the y position at time 1: "))
